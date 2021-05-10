@@ -1,0 +1,122 @@
+@import url("https://fonts.googleapis.com/css2?family=PT+Sans+Narrow&display=swap");
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+}
+
+.home {
+  margin-top: -80px;
+}
+
+.landing-section {
+  background: linear-gradient(90deg, rgb(28, 27, 27) 0%, rgb(26, 23, 23) 100%);
+  height: 100vh;
+  width: 100%;
+  min-height: 500px;
+  position: relative;
+  object-fit: contain;
+}
+
+video {
+  position: absolute;
+  width: 100%;
+  height: 100vh;
+  min-height: 500px;
+  opacity: 0.5;
+  object-fit: cover;
+}
+
+.landing-section-text {
+  z-index: 10;
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  /* justify-content: center; */
+  align-items: center;
+}
+
+.landing-section-header,
+.landing-section-footer {
+  /* margin-bottom: 30px; */
+  width: 100%;
+  font-family: "PT Sans Narrow", sans-serif;
+  text-align: center;
+  font-size: 2rem;
+  color: #fff;
+  /* padding: 1rem; */
+  animation: fadeIn linear 1s;
+  -webkit-animation: fadeIn linear 1s;
+  -moz-animation: fadeIn linear 1s;
+  -o-animation: fadeIn linear 1s;
+  -ms-animation: fadeIn linear 1s;
+}
+
+.landing-section-header {
+  margin-top: 70vh;
+  animation-delay: 1s;
+}
+
+.landing-section-footer {
+  animation-delay: 2s;
+}
+
+@media screen and (max-width: 550px) {
+  .landing-section-header,
+  .landing-section-footer {
+    font-size: 1.2rem;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .landing-section-header,
+  .landing-section-footer {
+    font-size: 1rem;
+  }
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 0.5;
+  }
+}
+
+@-moz-keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 0.5;
+  }
+}
+
+@-webkit-keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 0.5;
+  }
+}
+
+@-o-keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 0.5;
+  }
+}
+
+@-ms-keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 0.5;
+  }
+}

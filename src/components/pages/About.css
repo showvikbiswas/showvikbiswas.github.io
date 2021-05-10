@@ -1,0 +1,118 @@
+@import url("https://fonts.googleapis.com/css2?family=PT+Sans&display=swap");
+
+.about-section {
+  margin-top: -80px;
+  font-family: "PT Sans", sans-serif;
+  font-weight: 100;
+}
+
+.about-body {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+body {
+  background-color: #121212;
+}
+
+.splash-container {
+  display: flex;
+  justify-content: center;
+}
+
+.big-splash {
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 80px;
+  font-size: 2rem;
+  width: 60vw;
+  height: 120px;
+  animation: fadeIn linear 1s;
+  -webkit-animation: fadeIn linear 1s;
+  -moz-animation: fadeIn linear 1s;
+  -o-animation: fadeIn linear 1s;
+  -ms-animation: fadeIn linear 1s;
+}
+
+.about-body > video {
+  opacity: 0.5;
+  filter: blur(60px);
+  z-index: -1;
+}
+
+.intro {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-left: 20vw;
+  padding-right: 20vw;
+  color: white;
+  margin-top: 50px;
+  padding-bottom: 20px;
+}
+
+.intro > p {
+  padding-bottom: 15px;
+  font-size: 1.5rem;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 0.5;
+  }
+}
+
+@media screen and (max-width: 960px) {
+  .intro > p {
+    font-size: 1rem;
+  }
+}
+
+@-moz-keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 0.5;
+  }
+}
+
+@-webkit-keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 0.5;
+  }
+}
+
+@-o-keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 0.5;
+  }
+}
+
+@-ms-keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 0.5;
+  }
+}

@@ -1,0 +1,15 @@
+@import url("https://fonts.googleapis.com/css2?family=Merriweather:wght@300&display=swap");
+
+.blog-container {
+  font-family: "Merriweather", sans-serif;
+  min-height: 100vh;
+  color: white;
+  margin-top: 10%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.blog-container > p {
+  margin-top: 30vh;
+}
