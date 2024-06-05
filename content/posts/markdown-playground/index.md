@@ -4,6 +4,7 @@ description: abc234
 date: 2019-12-07
 draft: true
 slug: /pensieve/markdown-playground
+category: coding
 tags:
   - Testing
 ---

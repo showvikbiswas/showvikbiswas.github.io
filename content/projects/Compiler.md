@@ -1,6 +1,6 @@
 ---
 date: '2022-03-27'
-title: 'OS Memory Management'
+title: 'C Compiler'
 github: ''
 external: ''
 tech:

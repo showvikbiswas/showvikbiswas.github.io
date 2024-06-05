@@ -142,24 +142,39 @@ const StyledPost = styled.li`
   }
 `;
 
-const PensievePage = ({ location, data }) => {
+const BlogPage = ({ location, data }) => {
   const posts = data.allMarkdownRemark.edges;
+
+  const groupedByCategory = posts.reduce((acc, node) => {
+    const { frontmatter } = node.node;
+    const { category } = frontmatter;
+
+    if (!acc[category]) {
+      acc[category] = [];
+    }
+
+    acc[category].push(node);
+
+    return acc;
+  }, {});
 
   return (
     <Layout location={location}>
-      <Helmet title="Pensieve" />
+      <Helmet title="Blog" />
 
       <StyledMainContainer>
         <header>
-          <h1 className="big-heading">Pensieve</h1>
-          <p className="subtitle">
-            <a href="https://www.wizardingworld.com/writing-by-jk-rowling/pensieve">
+          <h1 className="big-heading">Blog</h1>
+          {/* <p className="subtitle">
+            <a href="https://www.wizardingworld.com/writing-by-jk-rowling/Blog">
               a collection of memories
             </a>
-          </p>
+          </p> */}
         </header>
-
-        <StyledGrid>
+        {Object.entries(groupedByCategory).map(([category, posts]) => (
+          <div key={category}>
+            <h2 className='medium-heading'>{category}</h2>
+            <StyledGrid>
           {posts.length > 0 &&
             posts.map(({ node }, i) => {
               const { frontmatter } = node;
@@ -196,17 +211,58 @@ const PensievePage = ({ location, data }) => {
               );
             })}
         </StyledGrid>
+            <br />
+            <br />
+          </div>
+        ))}
+        {/* <StyledGrid>
+          {posts.length > 0 &&
+            posts.map(({ node }, i) => {
+              const { frontmatter } = node;
+              const { title, description, slug, date, tags } = frontmatter;
+              const formattedDate = new Date(date).toLocaleDateString();
+
+              return (
+                <StyledPost key={i}>
+                  <div className="post__inner">
+                    <header>
+                      <div className="post__icon">
+                        <IconBookmark />
+                      </div>
+                      <h5 className="post__title">
+                        <Link to={slug}>{title}</Link>
+                      </h5>
+                      <p className="post__desc">{description}</p>
+                    </header>
+
+                    <footer>
+                      <span className="post__date">{formattedDate}</span>
+                      <ul className="post__tags">
+                        {tags.map((tag, i) => (
+                          <li key={i}>
+                            <Link to={`/blog/tags/${kebabCase(tag)}/`} className="inline-link">
+                              #{tag}
+                            </Link>
+                          </li>
+                        ))}
+                      </ul>
+                    </footer>
+                  </div>
+                </StyledPost>
+              );
+            })}
+        </StyledGrid> */}
       </StyledMainContainer>
     </Layout>
   );
 };
 
-PensievePage.propTypes = {
+BlogPage.propTypes = {
   location: PropTypes.object.isRequired,
   data: PropTypes.object.isRequired,
 };
 
-export default PensievePage;
+export default BlogPage;
 
 export const pageQuery = graphql`
   {
@@ -218,6 +274,7 @@ export const pageQuery = graphql`
         node {
           frontmatter {
             title
+            category
             description
             slug
             date
