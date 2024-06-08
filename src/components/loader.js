@@ -76,6 +76,10 @@ const Loader = ({ finishLoading }) => {
   };
 
   useEffect(() => {
+    // if (window.localStorage.getItem('loaderShown')) {
+    //   finishLoading();
+    //   return;
+    // }
     const timeout = setTimeout(() => setIsMounted(true), 10);
     animate();
     return () => clearTimeout(timeout);

@@ -3,6 +3,7 @@ import PropTypes from 'prop-types';
 import styled, { ThemeProvider } from 'styled-components';
 import { Head, Loader, Nav, Social, Email, Footer } from '@components';
 import { GlobalStyle, theme } from '@styles';
+import { set } from 'lodash';
 
 const StyledContent = styled.div`
   display: flex;
@@ -13,6 +14,7 @@ const StyledContent = styled.div`
 const Layout = ({ children, location }) => {
   const isHome = location.pathname === '/';
   const [isLoading, setIsLoading] = useState(isHome);
+  const [loaderShown, setLoaderShown] = useState(false);
 
   // Sets target="_blank" rel="noopener noreferrer" on external links
   const handleExternalLinks = () => {
@@ -42,6 +44,7 @@ const Layout = ({ children, location }) => {
         }
       }, 0);
     }
+    window.localStorage.setItem('loaderShown', true);
 
     handleExternalLinks();
   }, [isLoading]);
@@ -58,8 +61,10 @@ const Layout = ({ children, location }) => {
             Skip to Content
           </a>
 
-          {isLoading && isHome ? (
-            <Loader finishLoading={() => setIsLoading(false)} />
+          {isLoading && isHome && !loaderShown? (
+            <Loader finishLoading={() => {
+              setIsLoading(false)
+            }} />
           ) : (
             <StyledContent>
               <Nav isHome={isHome} />

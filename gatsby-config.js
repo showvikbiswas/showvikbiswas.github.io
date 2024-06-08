@@ -4,9 +4,9 @@ module.exports = {
   siteMetadata: {
     title: 'Showvik Biswas',
     description:
-      'Showvik Biswas is a software engineer who specializes in building (and occasionally designing) exceptional digital experiences.',
+      'Showvik Biswas is a final year CS Undergrad at BUET.',
     siteUrl: 'https://showvikbiswas.github.io', // No trailing slash allowed!
-    image: '/og.png', // Path to your image you placed in the 'static' folder
+    image: '', // Path to your image you placed in the 'static' folder
     twitterUsername: '@showvik0',
   },
   plugins: [
