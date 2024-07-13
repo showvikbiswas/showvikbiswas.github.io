@@ -61,7 +61,7 @@ const Hero = () => {
 
   const one = <h1>Hi, I am</h1>;
   const two = <h2 className="medium-heading">Showvik Biswas.</h2>;
-  const three = <h3 className="small-heading">Final Year Undergrad @CSE, BUET.</h3>;
+  const three = <h3 className="small-heading">Graduate from CSE, BUET.</h3>;
   const four = (
     <>
       {/* <p>
@@ -74,8 +74,7 @@ const Hero = () => {
         .
       </p> */}
       <p>
-        I'm on the brink of completing my undergrad on CS from BUET. My interests primarily lie in
-        Systems/Security/Software Engineering. Looking for internship opportunities.
+        I'm a fresh CS graduate from BUET. My interests lie in Bioinformatics/Software Engineering/Security. Looking for internship/research opportunities.
       </p>
     </>
   );
