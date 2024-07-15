@@ -3,7 +3,7 @@ date: '2024-06-04'
 title: 'Research Assistant'
 company: 'IWFM'
 location: 'BUET, Dhaka'
-range: 'May 2022 - Present'
+range: 'May 2022 - June 2024'
 url: 'https://iwfm.buet.ac.bd/'
 ---
 

@@ -74,7 +74,7 @@ const Hero = () => {
         .
       </p> */}
       <p>
-        I'm a fresh CS graduate from BUET. My interests lie in Bioinformatics/Software Engineering/Security. Looking for internship/research opportunities.
+        I'm a lecturer at the Department of CSE, BRAC University. I recently completed my undergraduate from BUET. Passionate about football, music and video games.
       </p>
     </>
   );
