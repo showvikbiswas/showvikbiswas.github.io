@@ -336,6 +336,7 @@ const Research = () => {
               affiliation
               coauthor
               type
+              show
             }
             html
           }
@@ -368,12 +369,12 @@ const Research = () => {
         {featuredProjects &&
           featuredProjects.map(({ node }, i) => {
             const { frontmatter, html } = node;
-            const { external, title, tech, github, cover, cta, type, coauthor } = frontmatter;
+            const { external, title, tech, github, cover, cta, type, coauthor, show } = frontmatter;
             const coauthors = coauthor.join(', ');
-            const image = getImage(cover);
+            const image = getImage(cover)
 
             return (
-              <StyledProject key={i} ref={el => (revealProjects.current[i] = el)}>
+              show && <StyledProject key={i} ref={el => (revealProjects.current[i] = el)}>
                 <div className="project-content">
                   <div>
                     <p className="project-overline">{type}</p>
