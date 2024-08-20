@@ -1,0 +1,5 @@
+{
+    "componentChunkName": "component---src-templates-tag-js",
+    "path": "/blog/tags/india/",
+    "result": {"data":{"allMarkdownRemark":{"totalCount":1,"edges":[{"node":{"frontmatter":{"title":"Kashmir","description":"Heaven on Earth","date":"2024-06-06","slug":"/blog/kashmir","tags":["Mountains","India"]}}}]}},"pageContext":{"tag":"India"}},
+    "staticQueryHashes": ["1994492073","2009693873","2031412112","3442145507","3825832676"]}
