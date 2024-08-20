@@ -139,8 +139,10 @@ const About = () => {
         <StyledText>
           <div>
             <p>
-              Hey there! I am Showvik, a final year CS undergraduate student at{' '}
-              <a href="https://www.buet.ac.bd/">Bangladesh University of Engineering and Technology (BUET)</a> in Dhaka, Bangladesh.
+              Hey there! I am Showvik, a fresh lecturer at {' '}
+              <a href="https://www.bracu.ac.bd/">BRAC University</a> in Dhaka, Bangladesh.</p>
+            
+            <p>
               As an undergrad, I have always been fascinated by the engineering side of computer science - undertaking academic and
               non-academic projects in the fields of machine learning, operating systems, computer networks and security, and software
               engineering.
