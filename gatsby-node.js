@@ -11,6 +11,7 @@ exports.createPages = async ({ actions, graphql, reporter }) => {
   const { createPage } = actions;
   const postTemplate = path.resolve(`src/templates/post.js`);
   const tagTemplate = path.resolve('src/templates/tag.js');
+  const courseTemplate = path.resolve('src/templates/course.js');
 
   const result = await graphql(`
     {
@@ -32,6 +33,19 @@ exports.createPages = async ({ actions, graphql, reporter }) => {
           fieldValue
         }
       }
+      coursesRemark: allMarkdownRemark(
+        filter: { fileAbsolutePath: { regex: "/content/bracu/" } }
+        sort: { order: DESC, fields: [frontmatter___date] }
+        limit: 1000
+      ) {
+        edges {
+          node {
+            frontmatter {
+              slug
+            }
+          }
+        }
+      }
     }
   `);
 
@@ -43,11 +57,20 @@ exports.createPages = async ({ actions, graphql, reporter }) => {
 
   // Create post detail pages
   const posts = result.data.postsRemark.edges;
+  const courses = result.data.coursesRemark.edges;
 
   posts.forEach(({ node }) => {
     createPage({
       path: node.frontmatter.slug,
       component: postTemplate,
+      context: {},
+    });
+  });
+
+  courses.forEach(({ node }) => {
+    createPage({
+      path: node.frontmatter.slug,
+      component: courseTemplate,
       context: {},
     });
   });

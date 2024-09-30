@@ -4,7 +4,7 @@ module.exports = {
   siteMetadata: {
     title: 'Showvik Biswas',
     description:
-      'Showvik Biswas is a final year CS Undergrad at BUET.',
+      'Lecturer @ CSE, BRACU. PhD aspirant.',
     siteUrl: 'https://showvikbiswas.github.io', // No trailing slash allowed!
     image: '', // Path to your image you placed in the 'static' folder
     twitterUsername: '@showvik0',
