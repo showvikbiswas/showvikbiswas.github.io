@@ -1,0 +1,5 @@
+{
+    "componentChunkName": "component---src-templates-tag-js",
+    "path": "/blog/tags/dev-ops/",
+    "result": {"data":{"allMarkdownRemark":{"totalCount":1,"edges":[{"node":{"frontmatter":{"title":"Docker","description":"Docker Intro Notes","date":"2024-10-10","slug":"/blog/docker","tags":["DevOps","Docker"]}}}]}},"pageContext":{"tag":"DevOps"}},
+    "staticQueryHashes": ["1994492073","2009693873","2031412112","3825832676","3899493864"]}

@@ -1,5 +1,5 @@
 {
     "componentChunkName": "component---src-pages-bracu-js",
     "path": "/bracu/",
-    "result": {"data":{"coursesRemark":{"edges":[{"node":{"frontmatter":{"title":"CSE 321: Operating Systems","semester":"Fall 2024","slug":"/bracu/fall-24-321","date":"2024-10-05","status":"0"}}},{"node":{"frontmatter":{"title":"CSE 221: Algorithms","semester":"Summer 2024","slug":"/bracu/summer-24-221","date":"2024-06-06","status":"1"}}},{"node":{"frontmatter":{"title":"CSE 340: Computer Architecture","semester":"Fall 2024","slug":"/bracu/fall-24-340","date":"2024-10-09","status":"0"}}}]}},"pageContext":{}},
+    "result": {"data":{"coursesRemark":{"edges":[{"node":{"frontmatter":{"title":"CSE 340: Computer Architecture","semester":"Fall 2024","slug":"/bracu/fall-24-340","date":"2024-10-09","status":"0"}}},{"node":{"frontmatter":{"title":"CSE 321: Operating Systems","semester":"Fall 2024","slug":"/bracu/fall-24-321","date":"2024-10-05","status":"0"}}},{"node":{"frontmatter":{"title":"CSE 221: Algorithms","semester":"Summer 2024","slug":"/bracu/summer-24-221","date":"2024-06-06","status":"1"}}}]}},"pageContext":{}},
     "staticQueryHashes": ["1994492073","2009693873","2031412112","3825832676","3899493864"]}
