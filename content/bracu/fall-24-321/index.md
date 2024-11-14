@@ -12,7 +12,13 @@ status: '0'
 
 # Remarks
 
+- Quiz 1 marks have been <span style="color: var(--green);">published</span>.
+
 - The OSTEP book is probably the **best** academic book I've ever read during my undergrad years. I strongly suggest you to go through it even though it's not the textbook that's followed here at BRAC University.
+
+# Resources
+
+[Google Drive](https://drive.google.com/drive/folders/15VVwwySm2j6fJZ9UK6xj9rxMN_rfNADn?usp=sharing)
 
 # Suggested textbooks
 

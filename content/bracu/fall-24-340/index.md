@@ -12,7 +12,7 @@ status: '0'
 
 # Remarks
 
-- Quiz 1 has been graded.
+- Quiz 1 marks have been <span style="color: var(--green);">published</span>.
 
 # Resources
 
@@ -24,4 +24,4 @@ status: '0'
 
 # Suggested textbooks
 
-- Computer Organization and Design RISC-V Edition: _Patterson, Hennssy_
+- Computer Organization and Design RISC-V Edition: _Patterson, Hennessy_
