@@ -22,6 +22,7 @@ tags:
 - `docker ps -a` - see list of all containers
 - `docker container prune` - remove all stopped containers
 - `docker stop <id>` - stop container with id
+- `docker load < image.tar` - create an image from a tar file
 
 ## Docker-Compose
 

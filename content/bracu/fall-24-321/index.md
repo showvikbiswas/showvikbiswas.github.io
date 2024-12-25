@@ -1,6 +1,6 @@
 ---
 title: 'CSE 321: Operating Systems'
-semester: Fall 2024 
+semester: Fall 2024
 date: '2024-10-05'
 draft: false
 slug: '/bracu/fall-24-321'
@@ -13,7 +13,9 @@ status: '0'
 # Remarks
 
 - Quiz 1 marks have been <span style="color: var(--green);">published</span>.
-
+- Quiz 2 marks have been <span style="color: var(--green);">published</span>.
+- Quiz 3 marks have been <span style="color: var(--green);">published</span>.
+- Midterm marks have been <span style="color: var(--green);">published</span>.
 - The OSTEP book is probably the **best** academic book I've ever read during my undergrad years. I strongly suggest you to go through it even though it's not the textbook that's followed here at BRAC University.
 
 # Resources
@@ -22,6 +24,6 @@ status: '0'
 
 # Suggested textbooks
 
-- [Modern Operating Systems: *Tanenbaum, Bos*](https://csc-knu.github.io/sys-prog/books/Andrew%20S.%20Tanenbaum%20-%20Modern%20Operating%20Systems.pdf)
+- [Modern Operating Systems: _Tanenbaum, Bos_](https://csc-knu.github.io/sys-prog/books/Andrew%20S.%20Tanenbaum%20-%20Modern%20Operating%20Systems.pdf)
 
-- [OSTEP: *Arpaci-Dusseau, Arpaci-Dusseau*](https://github.com/ekalinin/operating-systems-three-easy-pieces-pdf/blob/master/ostep.pdf)
+- [OSTEP: _Arpaci-Dusseau, Arpaci-Dusseau_](https://github.com/ekalinin/operating-systems-three-easy-pieces-pdf/blob/master/ostep.pdf)
