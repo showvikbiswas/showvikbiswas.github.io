@@ -1,5 +1,5 @@
 {
     "componentChunkName": "component---src-pages-pensieve-tags-js",
     "path": "/pensieve/tags/",
-    "result": {"data":{"allMarkdownRemark":{"group":[{"fieldValue":"DevOps","totalCount":1},{"fieldValue":"Docker","totalCount":1},{"fieldValue":"India","totalCount":1},{"fieldValue":"Mountains","totalCount":1},{"fieldValue":"algorithms","totalCount":1},{"fieldValue":"comparch","totalCount":1},{"fieldValue":"os","totalCount":1}]}},"pageContext":{}},
+    "result": {"data":{"allMarkdownRemark":{"group":[{"fieldValue":"Alpine","totalCount":1},{"fieldValue":"DevOps","totalCount":2},{"fieldValue":"Docker","totalCount":1},{"fieldValue":"India","totalCount":1},{"fieldValue":"Mountains","totalCount":1},{"fieldValue":"algorithms","totalCount":1},{"fieldValue":"comparch","totalCount":1},{"fieldValue":"os","totalCount":1}]}},"pageContext":{}},
     "staticQueryHashes": ["1994492073","2009693873","2031412112","3825832676","3899493864"]}
