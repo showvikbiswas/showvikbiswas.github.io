@@ -1,21 +1,18 @@
 ---
 title: 'CSE 340: Computer Architecture'
-semester: Fall 2024
-date: '2024-10-09'
+semester: Spring 2025
+date: '2024-02-12'
 draft: false
-slug: '/bracu/fall-24-340'
+slug: '/bracu/spring-25-340'
 category: academic
 tags:
   - comparch
-status: '1'
+status: '0'
 ---
 
 # Remarks
 
-- Quiz 1 marks have been <span style="color: var(--green);">published</span>.
-- Quiz 2 marks have been <span style="color: var(--green);">published</span>.
-- Quiz 3 marks have been <span style="color: var(--green);">published</span>.
-- Midterm marks have been <span style="color: var(--green);">published</span>.
+- Greetings to the course!
 
 # Resources
 

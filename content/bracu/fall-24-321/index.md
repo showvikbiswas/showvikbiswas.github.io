@@ -7,7 +7,7 @@ slug: '/bracu/fall-24-321'
 category: academic
 tags:
   - os
-status: '0'
+status: '1'
 ---
 
 # Remarks
