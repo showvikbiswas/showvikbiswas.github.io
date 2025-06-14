@@ -2,4 +2,4 @@
     "componentChunkName": "component---src-templates-course-js",
     "path": "/bracu/spring-25-321",
     "result": {"data":{"markdownRemark":{"html":"<h1>Remarks</h1>\n<ul>\n<li>Greetings to the course!</li>\n</ul>\n<h1>Resources</h1>\n<p><a href=\"https://drive.google.com/drive/folders/1j7CGHRorgu4ffLiFp0GlN7YnjPGVvKyG?usp=sharing\" target=\"_blank\" rel=\"nofollow noopener noreferrer\">Google Drive</a></p>","frontmatter":{"title":"CSE 321: Operating Systems","semester":"Spring 2025","slug":"/bracu/spring-25-321"}}},"pageContext":{}},
-    "staticQueryHashes": ["1994492073","2009693873","2031412112","3825832676","3899493864"]}
+    "staticQueryHashes": ["1649618817","1994492073","2009693873","2031412112","3825832676"]}

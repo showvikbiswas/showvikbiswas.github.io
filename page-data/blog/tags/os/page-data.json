@@ -2,4 +2,4 @@
     "componentChunkName": "component---src-templates-tag-js",
     "path": "/blog/tags/os/",
     "result": {"data":{"allMarkdownRemark":{"totalCount":2,"edges":[{"node":{"frontmatter":{"title":"CSE 321: Operating Systems","description":null,"date":"2025-02-12","slug":"/bracu/spring-25-321","tags":["os"]}}},{"node":{"frontmatter":{"title":"CSE 321: Operating Systems","description":null,"date":"2024-10-05","slug":"/bracu/fall-24-321","tags":["os"]}}}]}},"pageContext":{"tag":"os"}},
-    "staticQueryHashes": ["1994492073","2009693873","2031412112","3825832676","3899493864"]}
+    "staticQueryHashes": ["1649618817","1994492073","2009693873","2031412112","3825832676"]}
