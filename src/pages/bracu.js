@@ -290,6 +290,7 @@ export const pageQuery = graphql`
   {
     coursesRemark: allMarkdownRemark(
     filter: {fileAbsolutePath: {regex: "/content/bracu/"}}
+    sort: {fields: frontmatter___date, order: DESC}
   ) {
     edges {
       node {

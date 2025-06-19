@@ -170,17 +170,8 @@ const ResearchPage = ({ location, data }) => {
             <tbody>
               {projects.length > 0 &&
                 projects.map(({ node }, i) => {
-                //   const {
-                //     date,
-                //     github,
-                //     external,
-                //     ios,
-                //     android,
-                //     title,
-                //     tech,
-                //     company,
-                //   } = node.frontmatter;
                     const { external, title, tech, github, cover, cta, type, coauthor, field, status, date } = node.frontmatter;
+                    const allFields = field.join(', ');
                   return (
                     <tr key={i} ref={el => (revealProjects.current[i] = el)}>
                       <td className="overline year">{`${new Date(date).getFullYear()}`}</td>
@@ -188,7 +179,6 @@ const ResearchPage = ({ location, data }) => {
                       <td className="title">{title}</td>
 
                       <td className="company hide-on-mobile">
-                        {/* {coauthor ? <span>GGMU</span> : <span>—</span>} */}
                         {coauthor?.length > 0 &&
                           coauthor.map((item, i) => (
                             <span key={i}>

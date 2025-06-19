@@ -1,7 +1,8 @@
 ---
 date: '2023-06-04'
 title: 'A Cell-Cell Communication Based Prediction Model for Target Gene Expression in Single Cell Spatial Transcriptomics Data'
-field: 'Bioinformatics'
+field: 
+  - Bioinformatics
 cover: './logo.png'
 github: ''
 external: ''

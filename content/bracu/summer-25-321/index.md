@@ -1,9 +1,9 @@
 ---
 title: 'CSE 321: Operating Systems'
-semester: Spring 2025
+semester: Summer 2025
 date: '2025-02-12'
 draft: false
-slug: '/bracu/spring-25-321'
+slug: '/bracu/summer-25-321'
 category: academic
 tags:
   - os
@@ -16,4 +16,4 @@ status: '0'
 
 # Resources
 
-[Google Drive](https://drive.google.com/drive/folders/1j7CGHRorgu4ffLiFp0GlN7YnjPGVvKyG?usp=sharing)
+[Google Drive](https://drive.google.com/drive/folders/12h1anaM6bFHzpYhlmrbJurkaAzVv54ko?usp=sharing)

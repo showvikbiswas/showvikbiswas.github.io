@@ -337,6 +337,7 @@ const Research = () => {
               coauthor
               type
               show
+              field
             }
             html
           }
@@ -369,7 +370,9 @@ const Research = () => {
         {featuredProjects &&
           featuredProjects.map(({ node }, i) => {
             const { frontmatter, html } = node;
-            const { external, title, tech, github, cover, cta, type, coauthor, show } = frontmatter;
+            console.log(frontmatter)
+            const { external, title, tech, github, cover, cta, type, coauthor, show, field } = frontmatter;
+            console.log(field);
             const coauthors = coauthor.join(', ');
             const image = getImage(cover)
 
@@ -390,10 +393,10 @@ const Research = () => {
                       dangerouslySetInnerHTML={{ __html: html }}
                     />
 
-                    {tech.length && (
+                    {field && (
                       <ul className="project-tech-list">
-                        {tech.map((tech, i) => (
-                          <li key={i}>{tech}</li>
+                        {field.map((field, i) => (
+                          <li key={i}>{field}</li>
                         ))}
                       </ul>
                     )}
