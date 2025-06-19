@@ -1,5 +1,5 @@
 {
     "componentChunkName": "component---src-templates-tag-js",
     "path": "/blog/tags/comparch/",
-    "result": {"data":{"allMarkdownRemark":{"totalCount":2,"edges":[{"node":{"frontmatter":{"title":"CSE 340: Computer Architecture","description":null,"date":"2024-10-09","slug":"/bracu/fall-24-340","tags":["comparch"]}}},{"node":{"frontmatter":{"title":"CSE 340: Computer Architecture","description":null,"date":"2024-02-12","slug":"/bracu/spring-25-340","tags":["comparch"]}}}]}},"pageContext":{"tag":"comparch"}},
+    "result": {"data":{"allMarkdownRemark":{"totalCount":2,"edges":[{"node":{"frontmatter":{"title":"CSE 340: Computer Architecture","description":null,"date":"2025-02-12","slug":"/bracu/summer-25-340","tags":["comparch"]}}},{"node":{"frontmatter":{"title":"CSE 340: Computer Architecture","description":null,"date":"2024-10-09","slug":"/bracu/fall-24-340","tags":["comparch"]}}}]}},"pageContext":{"tag":"comparch"}},
     "staticQueryHashes": ["1649618817","1994492073","2009693873","2031412112","3825832676"]}

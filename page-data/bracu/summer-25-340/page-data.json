@@ -1,0 +1,5 @@
+{
+    "componentChunkName": "component---src-templates-course-js",
+    "path": "/bracu/summer-25-340",
+    "result": {"data":{"markdownRemark":{"html":"<h1>Remarks</h1>\n<ul>\n<li>Greetings to the course!</li>\n</ul>\n<h1>Resources</h1>\n<ul>\n<li>\n<p><a href=\"https://showvikbiswas.github.io/riscv-inst\" target=\"_blank\" rel=\"nofollow noopener noreferrer\">RISC-V Instruction Visualizer</a>: v0.0.1</p>\n</li>\n<li>\n<p><a href=\"https://drive.google.com/drive/folders/1InHyvMCTr63WTElzfqUzo2XQzx7_FVGF?usp=sharing\" target=\"_blank\" rel=\"nofollow noopener noreferrer\">Class Materials</a></p>\n</li>\n<li>\n<p>Might try to create a datapath visualizer</p>\n</li>\n</ul>\n<h1>Suggested textbooks</h1>\n<ul>\n<li>Computer Organization and Design RISC-V Edition: <em>Patterson, Hennessy</em></li>\n</ul>","frontmatter":{"title":"CSE 340: Computer Architecture","semester":"Summer 2025","slug":"/bracu/summer-25-340"}}},"pageContext":{}},
+    "staticQueryHashes": ["1649618817","1994492073","2009693873","2031412112","3825832676"]}

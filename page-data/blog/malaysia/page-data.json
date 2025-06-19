@@ -1,0 +1,5 @@
+{
+    "componentChunkName": "component---src-templates-post-js",
+    "path": "/blog/malaysia",
+    "result": {"data":{"markdownRemark":{"html":"","frontmatter":{"title":"Malaysia","description":"Truly Asia","date":"2024-06-06","slug":"/blog/malaysia","tags":["Malaysia","Honeymoon"]}}},"pageContext":{}},
+    "staticQueryHashes": ["1649618817","1994492073","2009693873","2031412112","3825832676"]}
