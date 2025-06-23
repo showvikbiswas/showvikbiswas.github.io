@@ -17,6 +17,7 @@ status: '0'
 # Resources
 
 - [RISC-V Instruction Visualizer](https://showvikbiswas.github.io/riscv-inst): v0.0.1
+- Forbidden [knowledge](https://youtu.be/vuvckBQ1bME) on how to make a CPU.
 
 - [Class Materials](https://drive.google.com/drive/folders/1InHyvMCTr63WTElzfqUzo2XQzx7_FVGF?usp=sharing)
 
