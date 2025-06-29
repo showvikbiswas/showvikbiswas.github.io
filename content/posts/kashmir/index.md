@@ -2,7 +2,7 @@
 title: Kashmir
 description: Heaven on Earth 
 date: '2024-06-06'
-draft: false
+draft: true
 slug: '/blog/kashmir'
 category: travel
 tags:
