@@ -14,7 +14,7 @@ The best trip of my life is officially over.
 
 And what didn't it have! Starting from the absolutely delicious multi-cuisine food, to the jaw dropping views, and the captivating experiences -- I had all I could ask for in seven days. To top things off, the trip couldn't be with anyone better -- than the love of my life.
 
-![The first view](cover.jpg)
+![Hola!](cover.jpg)
 
 It feels nice to write this blog. It has only been about a month -- the rush has faded, life has settled, and now it's time to make congeal my memories.
 
