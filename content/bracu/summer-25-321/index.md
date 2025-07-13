@@ -16,4 +16,8 @@ status: '0'
 
 # Resources
 
-[Google Drive](https://drive.google.com/drive/folders/12h1anaM6bFHzpYhlmrbJurkaAzVv54ko?usp=sharing)
+- [Google Drive](https://drive.google.com/drive/folders/12h1anaM6bFHzpYhlmrbJurkaAzVv54ko?usp=sharing)
+
+- [Process Scheduling Simulator](https://process-scheduling-solver.boonsuen.com/)
+
+- [Multilevel Feedback Queue Simulation](https://www.youtube.com/watch?v=zSSSdj-B6UI)
